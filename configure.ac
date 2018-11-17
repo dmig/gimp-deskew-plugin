@@ -25,7 +25,7 @@ dnl AC_DEFINE(PLUGIN_MICRO_VERSION, plugin_micro_version, [0])
 AC_CONFIG_SRCDIR([src/main.c])
 AM_CONFIG_HEADER(config.h)
 
-AM_INIT_AUTOMAKE(no-define)
+AM_INIT_AUTOMAKE([no-define subdir-objects])
 
 AC_ISC_POSIX
 AC_PROG_CC
