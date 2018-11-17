@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "GIMP plugi-in",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/gimp-2.0",
+                "/usr/include/cairo",
+                "/usr/include/gegl-0.4",
+                "/usr/include/glib-2.0",
+                "/usr/include/gtk-2.0",
+                "/usr/include/pango-1.0",
+                "/usr/include/gdk-pixbuf-2.0",
+                "/usr/include/atk-1.0",
+                "/usr/lib/x86_64-linux-gnu/gtk-2.0/include",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/usr/include/babl-0.1"
+            ],
+            "defines": [
+                "LOCALEDIR=\"${env:HOME}/.local/share/locale\"",
+                "DATADIR=\"${env:HOME}/.local/share/gimp-deskew-plugin\""
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
