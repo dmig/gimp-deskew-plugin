@@ -121,6 +121,7 @@ src/Makefile
 po/Makefile.in
 help/Makefile
 help/en/Makefile
+help/de/Makefile
 help/images/Makefile
 ])
 
