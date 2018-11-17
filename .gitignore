@@ -23,7 +23,7 @@ po/POTFILES
 po/*.gmo
 po/stamp-it
 
-src/deskew
+src/gimp-deskew-plugin
 .deps
 .dirstamp
 .libs

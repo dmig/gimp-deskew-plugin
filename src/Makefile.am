@@ -1,10 +1,10 @@
 ## Process this file with automake to produce Makefile.in
 
-bin_PROGRAMS = deskew
+bin_PROGRAMS = gimp-deskew-plugin
 
 bindir = $(GIMP_LIBDIR)/plug-ins
 
-deskew_SOURCES =                                \
+gimp_deskew_plugin_SOURCES =                                \
 	plugin-intl.h                           \
 	interface.c                             \
 	interface.h                             \
@@ -34,4 +34,3 @@ AM_CPPFLAGS = \
 
 LDADD = $(GIMP_LIBS)
 #LDADD = $(GIMP_LIBS) -lnetpbm
-

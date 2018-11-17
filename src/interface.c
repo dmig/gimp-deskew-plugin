@@ -108,7 +108,7 @@ dialog (gint32              image_ID,
 
   dlg = gimp_dialog_new (_("Deskew"), PLUGIN_NAME,
                          NULL, 0,
-			 gimp_standard_help_func, "gimp-deskew-plug-in",
+			 gimp_standard_help_func, "gimp-deskew-plugin",
 
 			 GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
 			 GTK_STOCK_OK,     GTK_RESPONSE_OK,

@@ -43,7 +43,7 @@ render (gint32              image_ID,
 {
     double angle = gimp_find_skew(drawable); // in radians
 
-    DEBUGPRINT("deskew: angle=%.2f\n",
+    DEBUGPRINT(PLUGIN_NAME ": angle=%.2f\n",
                57.295779513082320876798154814105*angle);
 
     if (fabs(angle) < deskew_threshold) {
